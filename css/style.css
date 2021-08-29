@@ -7,7 +7,7 @@
   max-width: 100%;
 }
 body {
-  min-height: 100vh;
+  min-height: auto;
   background: navy;
   display: flex;
   justify-content: center;
@@ -19,7 +19,7 @@ main {
   border-left: 2px solid #e83a3b;
   border-right: 2px solid #e83a3b;
 }
-.search-section{
+.search-section {
   margin-top: 2rem;
 }
 .search-section input {
@@ -38,10 +38,11 @@ main {
   color: #fff;
 }
 .result-section {
-    margin-top: 2rem;
+  margin-top: 1rem;
   text-align: center;
   display: flex;
   padding: 0.5rem;
+  padding-bottom: 1rem;
 }
 .result-section > div {
   width: 49%;
@@ -67,6 +68,7 @@ main {
   main {
     border-right: none;
     border-left: none;
+    min-height: 100vh;
   }
   .result-section {
     flex-wrap: wrap;
